@@ -138,18 +138,24 @@ nav ul li a:hover {
 }
 
 #main {
-    background-image: url('https://pngimg.com/uploads/welcome/welcome_PNG91.png');
+    background-image: url("https://images.pexels.com/photos/4046810/pexels-photo-4046810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-position: inherit;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #login {
-    background-color: aqua;
+    background-image: url("https://images.pexels.com/photos/4046810/pexels-photo-4046810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #signup {
-    background-color: aqua;
+    background-image: url("https://images.pexels.com/photos/4046810/pexels-photo-4046810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #log {
@@ -158,8 +164,8 @@ nav ul li a:hover {
     border-bottom-color: rgb(10 26 52);
     border-radius: 10px;
     position: absolute;
-    top: 74%;
-    right: 74%;
+    top: 38%;
+    right: 40%;
     height: 78px;
     width: 178px;
 }
@@ -170,8 +176,8 @@ nav ul li a:hover {
     border-bottom-color: rgb(10 26 52);
     border-radius: 10px;
     position: absolute;
-    top: 74%;
-    right: 16%;
+    top: 64%;
+    right: 40%;
     height: 78px;
     width: 178px;
 }
