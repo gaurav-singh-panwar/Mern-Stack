@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Document</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body {
+            background-image: url('https://images.indianexpress.com/2019/01/leh-ladakh-getty-images-759.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-blend-mode: color-burn;
+        }
+        
+        table,
+        td,
+        th {
+            border: 1px solid black;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        input {
+            margin-left: 280px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <table id="imgTable">
+        <tr>
+            <th>Image</th>
+            <th>Name of place</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://www.jagranimages.com/images/newimg/08092020/08_09_2020-him_20723680.jpg" width="300" height="300">
+            </td>
+            <td>Himalaya</td>
+            <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores veniam in illum, reiciendis commodi ipsum asperiores. Eius cumque distinctio voluptates obcaecati dolore esse nesciunt, quas velit sit numquam et vel.</td>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://badrinath-kedarnath.gov.in/Assets/asset/images/kedarnath.jpg" width="300" height="300">
+            </td>
+            <td>Kedarnath</td>
+            <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi vel doloribus corrupti atque? Officia, obcaecati. Eius nostrum magni ad aliquid facilis facere tenetur nobis laboriosam aperiam, alias cupiditate repellat optio!</td>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://www.clubmahindra.com/blog/media/section_images/shuttersto-1a47b83e6a03271.jpg " width="300" height="300">
+            </td>
+            <td>Shimla</td>
+            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi perspiciatis repellat fuga nemo numquam voluptatem dolorum exercitationem. Illo odit sequi reiciendis, veritatis fuga incidunt rem adipisci nisi quia, obcaecati laborum?</td>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://static.toiimg.com/thumb/34117654/The-top-attractions-in-Goa.jpg?width=1200&height=900" width="300" height="300">
+            </td>
+            <td>Goa</td>
+            <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, non suscipit fugit enim animi quae quo sequi alias hic est fuga ullam. A quia, corporis pariatur illo officia eum qui?
+        </tr>
+    </table>
+    <form>
+        <input type="radio" id="himalaya" name="place" value="himalaya" />
+        <label for="himalaya">Himalaya</label>
+        <input type="radio" id="kedarnath" name="place" value="Kedarnath" />
+        <label for="kedarnath">Kedarnath</label>
+        <input type="radio" id="shimla" name="place" value="shimla" />
+        <label for="shimla">Shimla</label>
+        <input type="radio" id="goa" name="place" value="goa" />
+        <label for="goa">Goa</label>
+        <br>
+        <input type="submit" value="send this form" />
+
+    </form>
+
+</body>
+
+</html>
