@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+}
+
+.outer {
+    max-width: 1100px;
+    /*background: #CDCDCD;*/
+    margin: auto;
+}
+
+.outer nav {
+    background-color: black;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    align-content: center;
+}
+
+.outer nav ul {
+    margin-bottom: 2px;
+    padding: 0;
+    margin-top: 2px;
+}
+
+.outer nav .btn li {
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 20px;
+    margin: 3px 0px 3px 5px;
+}
+
+.outer nav ul li a {
+    color: red;
+    display: block;
+    line-height: 2em;
+    padding: 1px 1px;
+    text-decoration: none;
+}
+
+.outer nav .btn li .home:hover,
+.outer nav .btn li .about:hover,
+.outer nav .btn li .blog:hover,
+.outer nav .btn li .contact:hover {
+    transform: scale(1.3);
+    background-color: rgb(177, 177, 238);
+    color: black;
+    font-weight: bold;
+}
+
+.outer header {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.outer header h2 {
+    font-family: arial;
+    font-size: 50px;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #373737;
+    text-align: center;
+}
+
+.outer header h2 span {
+    color: #Fff;
+}
+
+.outer header p span {
+    color: #000;
+    font-weight: bold;
+}
+
+.outer header p {
+    font-family: arial;
+    font-size: 21px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.outer hr {
+    text-align: center;
+}
+
+.outer p {
+    text-align: center;
+    font-size: large;
+}
+
+.outer section {
+    padding: 15px;
+}
+
+.outer section main {
+    background: rgba(255, 99, 71, 0.4);
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.outer section main .container {
+    max-width: 320px;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin: 10px;
+    overflow: hidden;
+    transition: .5s ease-in;
+    color: black;
+}
+
+.outer section main .container:hover .img1,
+.outer section main .container:hover .img2,
+.outer section main .container:hover .img3,
+.outer section main .container:hover .img4,
+.outer section main .container:hover .img5,
+.outer section main .container:hover .img6 {
+    transform: scale(1.1);
+}
+
+.outer section main .container .img1,
+.outer section main .container .img2,
+.outer section main .container .img3,
+.outer section main .container .img4,
+.outer section main .container .img5,
+.outer section main .container .img6 {
+    max-width: 100%;
+    height: 280px;
+    background-size: cover;
+    background-position: 0px;
+    margin: auto;
+    transition: .5s;
+}
+
+.outer section main .container .img1 {
+    background-image: url(./images/machu-picchu-peru.jpg);
+}
+
+.outer section main .container .img2 {
+    background-image: url(./images/grand-canyon.jpg);
+}
+
+.outer section main .container .img3 {
+    background-image: url(./images/rome-italy.jpg);
+}
+
+.outer section main .container .img4 {
+    background-image: url(./images/maui-hawaii.jpg);
+}
+
+.outer section main .container .img5 {
+    background-image: url(./images/mara-kenya.jpg);
+}
+
+.outer section main .container .img6 {
+    background-image: url(./images/montreal-canada.jpg);
+}
+
+.outer section main .container .content {
+    padding: 15px;
+}
+
+.outer section main .container .content h3 {
+    font-family: arial;
+    padding: 10px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.outer section main .container .content h3:hover {
+    background-color: pink;
+}
+
+.outer section main .container .content p {
+    font-family: arial;
+    line-height: 25px;
+}
+
+.bloglist h2 {
+    font-family: arial;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 10px;
+    text-decoration-line: underline;
+}
+
+.bloglist ol li p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    padding-top: 10px;
+    padding-left: 25px;
+}
